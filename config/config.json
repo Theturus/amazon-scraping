@@ -1,0 +1,8 @@
+{
+    "name": "span.a-profile-name",
+    "title": "a[data-hook='review-title'] span",
+    "comment": "span[data-hook='review-body'] span",
+    "rating": "i[data-hook='review-star-rating'] span.a-icon-alt",
+    "date": "span[data-hook='review-date']",
+    "verified": "span[data-hook='avp-badge-linkless']"
+}
