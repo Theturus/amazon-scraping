@@ -14,5 +14,5 @@ setup(
     description="Un outil pour extraire les avis Amazon à partir de fichiers HTML",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/theturus/amazon-scraping",
+    url="https://github.com/Theturus/amazon-scraping",
 )
