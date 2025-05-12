@@ -4,11 +4,11 @@ Ce projet permet de scraper les avis laissés par les utilisateurs sur une page 
 
 ## Fonctionnalités
 
-> Extraction des avis depuis un fichier HTML local.
-> Exportation des résultats en CSV ou JSON.
-> Configuration des sélecteurs CSS via un fichier config.json.
-> Tests unitaires avec pytest pour valider la logique.
-> Cache des fichiers HTML pour optimiser les performances.
+- Extraction des avis depuis un fichier HTML local.
+- Exportation des résultats en CSV ou JSON.
+- Configuration des sélecteurs CSS via un fichier config.json.
+- Tests unitaires avec pytest pour valider la logique.
+- Cache des fichiers HTML pour optimiser les performances.
 
 ## Installation
 
@@ -27,10 +27,10 @@ pip install -e .
 
 ## Méthodologie
 
-> Entrée : Fichiers HTML contenant des pages d'avis Amazon (stockés dans data/input/).
-> Scraping : Le script src/scraping.py analyse le HTML avec BeautifulSoup, extrayant les noms, titres, commentaires, notes, dates et statuts d'achat vérifié.
-> Sortie : Les avis sont enregistrés en CSV (data/output/reviews.csv) ou JSON (data/output/reviews.json) selon les options spécifiées.
-> Tests : Les tests unitaires dans tests/test_scraping.py valident les fonctions de chargement, de configuration et de scraping.
+Entrée : Fichiers HTML contenant des pages d'avis Amazon (stockés dans data/input/).
+Scraping : Le script src/scraping.py analyse le HTML avec BeautifulSoup, extrayant les noms, titres, commentaires, notes, dates et statuts d'achat vérifié.
+Sortie : Les avis sont enregistrés en CSV (data/output/reviews.csv) ou JSON (data/output/reviews.json) selon les options spécifiées.
+Tests : Les tests unitaires dans tests/test_scraping.py valident les fonctions de chargement, de configuration et de scraping.
 
 ## Utilisation
 
@@ -61,9 +61,9 @@ Modifiez config/config.json pour ajuster les sélecteurs CSS si la structure HTM
 
 ## Améliorations Futures
 
---Scraping en direct avec gestion des restrictions d'Amazon.
---Interface graphique avec Streamlit pour visualiser les avis.
---Support multi-pages pour scraper plusieurs fichiers HTML.
+- Scraping en direct avec gestion des restrictions d'Amazon.
+- Interface graphique avec Streamlit pour visualiser les avis.
+- Support multi-pages pour scraper plusieurs fichiers HTML.
 
 ## Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
